@@ -15,5 +15,7 @@ loginForm.addEventListener("submit", function (event) {
     };
 
     console.log(formData);
+
+    this.reset();
   }
 });
